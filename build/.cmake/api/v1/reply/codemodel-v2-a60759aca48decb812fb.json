@@ -1,0 +1,138 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "1_WebSocket",
+					"childIndexes" : 
+					[
+						2
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "1_WebSocket"
+				},
+				{
+					"build" : "1_WebSocket/4_nonblock",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "1_WebSocket/4_nonblock",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "LearnSocket"
+				},
+				{
+					"childIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "WebSocket",
+					"parentIndex" : 0
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "blocking",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "nonblocking_client_connect::@115a913b8ac064eacfd0",
+					"jsonFile" : "target-nonblocking_client_connect-Debug-22860772f7746ff67ec3.json",
+					"name" : "nonblocking_client_connect",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "nonblocking_client_recv::@115a913b8ac064eacfd0",
+					"jsonFile" : "target-nonblocking_client_recv-Debug-091e3e2024ef04b4b806.json",
+					"name" : "nonblocking_client_recv",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "nonblocking_client_send::@115a913b8ac064eacfd0",
+					"jsonFile" : "target-nonblocking_client_send-Debug-8d8f965ec6f524640c18.json",
+					"name" : "nonblocking_client_send",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "nonblocking_server::@115a913b8ac064eacfd0",
+					"jsonFile" : "target-nonblocking_server-Debug-9ad0ebce1857fcdbadb2.json",
+					"name" : "nonblocking_server",
+					"projectIndex" : 2
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/huran/CodeHeap/LearnSocketOnBook/build",
+		"source" : "/home/huran/CodeHeap/LearnSocketOnBook"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

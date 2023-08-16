@@ -1,0 +1,123 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "1_WebSocket",
+					"childIndexes" : 
+					[
+						2
+					],
+					"jsonFile" : "directory-1_WebSocket-Debug-9c4d35e64fcb7f4190d9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "1_WebSocket"
+				},
+				{
+					"build" : "1_WebSocket/4_nonblock",
+					"jsonFile" : "directory-1_WebSocket.4_nonblock-Debug-5b906d3d15652846bb92.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "1_WebSocket/4_nonblock",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "LearnSocket"
+				},
+				{
+					"childIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "WebSocket",
+					"parentIndex" : 0
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "blocking",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "nonblocking_client_send::@115a913b8ac064eacfd0",
+					"jsonFile" : "target-nonblocking_client_send-Debug-b8f84aca2ebad2f3a26c.json",
+					"name" : "nonblocking_client_send",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "nonblocking_server::@115a913b8ac064eacfd0",
+					"jsonFile" : "target-nonblocking_server-Debug-8af2ef66c0e1552a6f78.json",
+					"name" : "nonblocking_server",
+					"projectIndex" : 2
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/huran/CodeHeap/LearnSocketOnBook/cmake-build-debug",
+		"source" : "/home/huran/CodeHeap/LearnSocketOnBook"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}

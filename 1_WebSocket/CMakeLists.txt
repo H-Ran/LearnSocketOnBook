@@ -1,0 +1,11 @@
+cmake_minimum_required(VERSION 3.0.0)
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(${CMAKE_ARCHIVE_OUTPUT_DIRECTORY} ${CMAKE_CURRENT_SOURCE_DIR})
+project(WebSocket LANGUAGES CXX)
+
+# add_subdirectory(0_test)
+# add_subdirectory(1_EasySocket)
+# add_subdirectory(2_select)
+# add_subdirectory(3_block)
+add_subdirectory(4_nonblock)

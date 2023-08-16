@@ -1,0 +1,22 @@
+[
+{
+  "directory": "/home/huran/CodeHeap/LearnSocketOnBook/build/1_WebSocket/4_nonblock",
+  "command": "/usr/bin/g++    -g   -std=gnu++17 -o CMakeFiles/nonblocking_client_connect.dir/nonblocking_client_connect.cpp.o -c /home/huran/CodeHeap/LearnSocketOnBook/1_WebSocket/4_nonblock/nonblocking_client_connect.cpp",
+  "file": "/home/huran/CodeHeap/LearnSocketOnBook/1_WebSocket/4_nonblock/nonblocking_client_connect.cpp"
+},
+{
+  "directory": "/home/huran/CodeHeap/LearnSocketOnBook/build/1_WebSocket/4_nonblock",
+  "command": "/usr/bin/g++    -g   -std=gnu++17 -o CMakeFiles/nonblocking_client_send.dir/nonblocking_client_send.cpp.o -c /home/huran/CodeHeap/LearnSocketOnBook/1_WebSocket/4_nonblock/nonblocking_client_send.cpp",
+  "file": "/home/huran/CodeHeap/LearnSocketOnBook/1_WebSocket/4_nonblock/nonblocking_client_send.cpp"
+},
+{
+  "directory": "/home/huran/CodeHeap/LearnSocketOnBook/build/1_WebSocket/4_nonblock",
+  "command": "/usr/bin/g++    -g   -std=gnu++17 -o CMakeFiles/nonblocking_client_recv.dir/nonblocking_client_recv.cpp.o -c /home/huran/CodeHeap/LearnSocketOnBook/1_WebSocket/4_nonblock/nonblocking_client_recv.cpp",
+  "file": "/home/huran/CodeHeap/LearnSocketOnBook/1_WebSocket/4_nonblock/nonblocking_client_recv.cpp"
+},
+{
+  "directory": "/home/huran/CodeHeap/LearnSocketOnBook/build/1_WebSocket/4_nonblock",
+  "command": "/usr/bin/g++    -g   -std=gnu++17 -o CMakeFiles/nonblocking_server.dir/nonblocking_server.cpp.o -c /home/huran/CodeHeap/LearnSocketOnBook/1_WebSocket/4_nonblock/nonblocking_server.cpp",
+  "file": "/home/huran/CodeHeap/LearnSocketOnBook/1_WebSocket/4_nonblock/nonblocking_server.cpp"
+}
+]

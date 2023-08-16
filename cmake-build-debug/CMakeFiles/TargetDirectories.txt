@@ -1,0 +1,8 @@
+/home/huran/CodeHeap/LearnSocketOnBook/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/huran/CodeHeap/LearnSocketOnBook/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/huran/CodeHeap/LearnSocketOnBook/cmake-build-debug/1_WebSocket/CMakeFiles/edit_cache.dir
+/home/huran/CodeHeap/LearnSocketOnBook/cmake-build-debug/1_WebSocket/CMakeFiles/rebuild_cache.dir
+/home/huran/CodeHeap/LearnSocketOnBook/cmake-build-debug/1_WebSocket/4_nonblock/CMakeFiles/nonblocking_server.dir
+/home/huran/CodeHeap/LearnSocketOnBook/cmake-build-debug/1_WebSocket/4_nonblock/CMakeFiles/nonblocking_client_send.dir
+/home/huran/CodeHeap/LearnSocketOnBook/cmake-build-debug/1_WebSocket/4_nonblock/CMakeFiles/edit_cache.dir
+/home/huran/CodeHeap/LearnSocketOnBook/cmake-build-debug/1_WebSocket/4_nonblock/CMakeFiles/rebuild_cache.dir
